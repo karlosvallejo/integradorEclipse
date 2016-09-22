@@ -33,6 +33,7 @@ public class Logica implements Observer{
 				String aprovadon= new String("AprobadoRegistro");
 				com.mandarMensajote(aprovadon);
 				
+				
 			}else if(!usuariosRegistrados.isEmpty()){
 			for (int i = 0; i < usuariosRegistrados.size(); i++) {
 				Usuario usuregis = usuariosRegistrados.get(i);
